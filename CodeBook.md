@@ -1,6 +1,6 @@
-Dataset description
+Dataset description:
 
-Measurements
+Measurements:
 •	tBodyAccMeanX
 •	tBodyAccMeanY
 •	tBodyAccMeanZ
@@ -81,7 +81,7 @@ Measurements
 •	fBodyBodyGyroJerkMagStd
 •	fBodyBodyGyroJerkMagMeanFreq
 
-Dataset information
+Dataset information:
 
 Merge the training and the test sets to create one data set.
 After setting the source directory for the files, read into tables the data located in
@@ -95,12 +95,12 @@ After setting the source directory for the files, read into tables the data loca
 •	y_test.txt
 First data containing x_train, y_train, subject_train  are combined along with features and activity_labels to get training data. Similarly x_test, y_test and subject_test are combined along with features and activity_labels to get test data.These two datasets are combined. 
 
-Extract only the mean and standard deviation measurements from the data
+Extract only the mean and standard deviation measurements from the data:
 grep was used to generate a logical vector containing measurements of mean and standard deviation.
 
-Name the columns appropriately to depict the measurement
+Name the columns appropriately to depict the measurement:
 Gsub was used to replace mean with Mean, std with Std and remove ()
 
-Create tidy dataset from the combined dataset with means for each activity and subject
+Create tidy dataset from the combined dataset with means for each activity and subject:
 Melt and dcast functions are used to breakdown the dataframe and later rebuild the dataframe finding the mean for each activity.
 
