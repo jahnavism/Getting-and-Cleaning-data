@@ -1,11 +1,14 @@
 Project Overview
 This project helps to demonstrate the purpose of cleaning the dataset and make some useful insights. 
+
 Project Description
 Complete description of the project can be found in the below link.
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 Output files
 There are two files associated with the project out.
 The Run_Analysis file contains the code and Tidy_data contains the cleaned data.
+
 Code briefing
 Below are the steps carried out as part of the tidying the data.
 1.	Download the file from the link provided
